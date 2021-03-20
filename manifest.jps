@@ -7,7 +7,7 @@ description:
   text: Node-RED development environment to wire services, devices and APIs into a single IoT network within a Cloud. Provides web-based editor with a wide range of nodes to connect and deploy flows.
   short: Node-RED development environment for building IoT networks in the Cloud.
 
-baseUrl: https://raw.githubusercontent.com/jelastic-jps/node-red/master/
+baseUrl: https://raw.githubusercontent.com/SiryjVyiko/node-red/master/
 
 categories:
 - apps/dev-and-admin-tools
@@ -18,7 +18,7 @@ nodes:
   image: nodered/node-red
   nodeGroup: cp
   env:
-    JELASTIC_EXPOSE: 'FALSE'
+    JELASTIC_EXPOSE: '7654'
 globals:
   wsPort: 1880
   redirPort: 7654
