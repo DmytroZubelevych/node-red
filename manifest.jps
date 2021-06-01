@@ -12,6 +12,8 @@ baseUrl: https://raw.githubusercontent.com/SiryjVyiko/node-red/master/
 categories:
 - apps/dev-and-admin-tools
 
+onBeforeInit: scripts/onBeforeInit.js
+
 nodes:
 - cloudlets: 8
   displayName: Node-RED
